@@ -7,4 +7,4 @@
 . .venv/bin/activate
 
 # Run main.py
-sudo python3 main.py
+sudo fastapi run
