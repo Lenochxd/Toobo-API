@@ -29,7 +29,7 @@ GET https://toobo.bishokus.fr/API/toobo?date=2024-07-22
 
 Response:
 
-```json
+```
 {
   "text": "Salut les enfants! C'est Toobo, votre champion météo! Préparez-vous pour une journée ensoleillée et joyeuse demain!
 
