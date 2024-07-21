@@ -8,7 +8,7 @@ from utils import ask_toobo
 app = FastAPI()
 
 
-@app.get("/API/toobo/get_weather_resume")
+@app.get("/API/toobo")
 async def resume_weather(date: str = get_tomorrow_date()):
     date = date.replace("/", "-")
 
