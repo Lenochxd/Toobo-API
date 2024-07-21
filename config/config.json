@@ -1,0 +1,15 @@
+{
+    "apis": {
+        "OpenAI": "",
+        "OpenWeatherMap": ""
+    },
+    "cities": [
+        "Paris",
+        "Marseille",
+        "Bordeaux",
+        "Toulouse",
+        "Saint-Brieuc",
+        "Nice",
+        "Nancy"
+    ]
+}

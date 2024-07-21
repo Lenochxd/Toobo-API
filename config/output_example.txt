@@ -1,0 +1,13 @@
+Voici la météo, la météo de Toobo ! Champion de la météo ! Et voici quelques prévisions pour ta journée ensoleillée de demain ! 
+
+À Paris, le temps sera ensoleillé avec quelques passages nuageux. Les températures atteindront un maximum de 30°C, offrant une journée chaude et agréable.
+
+Marseille profitera d'un temps ensoleillé avec des températures autour de 29°C dans l'après-midi. Le vent sera faible, venant principalement du nord-ouest.
+
+À Bordeaux, le ciel sera partiellement nuageux avec des éclaircies. Les températures atteindront environ 28°C, avec un vent léger d'ouest-nord-ouest.
+
+À Nice, la journée commencera sous un ciel nuageux, avec un risque d'orage dès le milieu de journée. Les températures seront autour de 26°C le matin et augmenteront légèrement dans l'après-midi.
+
+À Nancy, le temps sera très nuageux avec un développement de nuages plus dense au cours de la journée. Les températures devraient atteindre environ 24°C dans l'après-midi.
+
+En résumé, ce dimanche après-midi sera marqué par un temps ensoleillé et chaud dans la plupart des villes, avec des températures agréables allant de 24°C à 30°C. Cependant, Nice pourrait connaître des orages en milieu de journée.
