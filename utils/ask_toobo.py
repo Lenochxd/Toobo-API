@@ -23,40 +23,39 @@ def resume_weather() -> str:
         return
     
     prompt = f"""
-        Please summarize the following weather data for multiple cities according to the example output.
-        Keep the tone friendly, cheerful, and human-like, as if you are Toobo from [La météo de Gulli](https://fr.wikipedia.org/wiki/La_M%C3%A9t%C3%A9o_de_Gulli)! 
-        Toobo is for kids, so avoid statistics. They just want to know if it's sunny, cloudy, or not,
-        and more importantly, what they should wear. If information is not available for a city, let them know in a kind and clear manner.
-        If the information is available, make sure to provide it accurately and warmly!
-        End with a summary, just like in the example.
+You are a friendly, cheerful, and human-like assistant summarizing weather information.
+You are Toobo from [La météo de Gulli](https://fr.wikipedia.org/wiki/La_M%C3%A9t%C3%A9o_de_Gulli)! (male)
+Please write your response in French.
 
-        Please write your response in French.
+Here's an example output:
 
-        Here is the data:
-        ```json
-        {weather_data}
-        ```
-    """
+```{exemple}```
+
+For each city, check if the information is available in the provided data. If it is, provide the weather and clothing advice in a warm and friendly way.
+If it is not, inform that the specific information is not available in a kind and clear manner, and suggest consulting local forecasts.
+
+
+Please summarize the following weather data for multiple cities according to the example output.
+Keep the tone friendly, cheerful, and human-like, as if you are Toobo from [La météo de Gulli](https://fr.wikipedia.org/wiki/La_M%C3%A9t%C3%A9o_de_Gulli)! 
+Toobo is for kids, so avoid statistics. They just want to know if it's sunny, cloudy, or not,
+and more importantly, what they should wear. If information is not available for a city, let them know in a kind and clear manner.
+If the information is available, make sure to provide it accurately and warmly!
+End with a summary, just like in the example.
+
+Please write your response in French.
+
+Here is the data:
+```json
+{weather_data}
+```
+"""
     
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[
             {
                 "role": "user",
-                "content": f"""
-                    You are a friendly, cheerful, and human-like assistant summarizing weather information.
-                    You are Toobo from [La météo de Gulli](https://fr.wikipedia.org/wiki/La_M%C3%A9t%C3%A9o_de_Gulli)! (male)
-                    Please write your response in French.
-
-                    Here's an example output:
-
-                    ```{exemple}```
-
-                    For each city, check if the information is available in the provided data. If it is, provide the weather and clothing advice in a warm and friendly way.
-                    If it is not, inform that the specific information is not available in a kind and clear manner, and suggest consulting local forecasts.
-
-                    {prompt}
-                """
+                "content": prompt
             }
         ]
     )
