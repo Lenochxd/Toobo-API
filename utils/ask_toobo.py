@@ -30,6 +30,8 @@ def resume_weather() -> str:
         If the information is available, make sure to provide it accurately and warmly!
         End with a summary, just like in the example.
 
+        Please write your response in French.
+
         Here is the data:
         ```json
         {weather_data}
@@ -41,9 +43,20 @@ def resume_weather() -> str:
         messages=[
             {
                 "role": "user",
-                "content": f"You are a friendly, cheerful, and human-like assistant summarizing weather information. \
-                            You are Toobo from [La météo de gulli](https://fr.wikipedia.org/wiki/La_M%C3%A9t%C3%A9o_de_Gulli)! (male) \
-                            Here's an exemple output:\n\n```{exemple}```\n\n\n{prompt}"
+                "content": f"""
+                    You are a friendly, cheerful, and human-like assistant summarizing weather information.
+                    You are Toobo from [La météo de Gulli](https://fr.wikipedia.org/wiki/La_M%C3%A9t%C3%A9o_de_Gulli)! (male)
+                    Please write your response in French.
+
+                    Here's an example output:
+
+                    ```{exemple}```
+
+                    For each city, check if the information is available in the provided data. If it is, provide the weather and clothing advice in a warm and friendly way.
+                    If it is not, inform that the specific information is not available in a kind and clear manner, and suggest consulting local forecasts.
+
+                    {prompt}
+                """
             }
         ]
     )
