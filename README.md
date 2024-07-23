@@ -10,7 +10,7 @@ Welcome to the Toobo Weather API! This API provides friendly and cheerful weathe
 
 ## API Endpoint
 
-The API can be accessed at: https://toobo.bishokus.fr:8000
+The API can be accessed at: http://toobo.bishokus.fr:8000
 
 ### Get Weather Resume
 
@@ -23,7 +23,7 @@ Query Parameters:
 
 Example Request:
 ```
-GET https://toobo.bishokus.fr:8000/API/toobo?date=2024-07-22
+GET http://toobo.bishokus.fr:8000/API/toobo?date=2024-07-22
 ```
 
 
