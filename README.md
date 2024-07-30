@@ -31,24 +31,26 @@ Response:
 
 ```
 {
-  "text": "Salut les enfants! C'est Toobo, votre champion météo! Préparez-vous pour une journée ensoleillée et joyeuse demain!
+  "code": 200,
+  "data": {
+    "text": "Salut les enfants! C'est Toobo, votre champion météo! Préparez-vous pour une journée ensoleillée et joyeuse demain!
 
-           À **Paris**, attendez-vous à un mélange de soleil et de nuages avec des températures agréables autour de 24°C. Parfait pour une journée chaude et agréable!
+             À **Paris**, attendez-vous à un mélange de soleil et de nuages avec des températures agréables autour de 24°C. Parfait pour une  journée chaude et agréable!
 
-           **Marseille** bénéficiera d'un ciel dégagé avec des températures avoisinant les 29°C. Le vent sera léger, principalement du nord-ouest.
+             **Marseille** bénéficiera d'un ciel dégagé avec des températures avoisinant les 29°C. Le vent sera léger, principalement du  nord-ouest.
 
-           À **Bordeaux**, le ciel sera partiellement nuageux, mais vous aurez des éclaircies. Prévoyez des températures autour de 26°C avec un léger vent d'ouest-nord-ouest.
+             À **Bordeaux**, le ciel sera partiellement nuageux, mais vous aurez des éclaircies. Prévoyez des températures autour de 26°C avec un  léger vent d'ouest-nord-ouest.
+ 
+             À **Toulouse**, attendez-vous à un ciel nuageux le matin avec des éclaircies l'après-midi. Les températures seront douces autour de  25°C.
 
-           À **Toulouse**, attendez-vous à un ciel nuageux le matin avec des éclaircies l'après-midi. Les températures seront douces autour de 25°C.
+             Pour **Saint-Brieuc**, la journée sera partiellement nuageuse, mais ne vous inquiétez pas, c'est toujours agréable. Prévoyez des  températures douces autour de 21°C.
 
-           Pour **Saint-Brieuc**, la journée sera partiellement nuageuse, mais ne vous inquiétez pas, c'est toujours agréable. Prévoyez des températures douces autour de 21°C.
+             À **Nice**, vous commencerez la journée avec un ciel dégagé, mais il pourrait y avoir quelques nuages plus tard. Les températures  atteindront environ 30°C, parfait pour une journée sur la Côte d'Azur.
 
-           À **Nice**, vous commencerez la journée avec un ciel dégagé, mais il pourrait y avoir quelques nuages plus tard. Les températures atteindront environ 30°C, parfait pour une journée sur la Côte d'Azur.
+             À **Nancy**, le ciel sera nuageux avec quelques éclaircies. Les températures seront agréables autour de 22°C.
 
-           À **Nancy**, le ciel sera nuageux avec quelques éclaircies. Les températures seront agréables autour de 22°C.
-
-           En résumé, demain sera une journée ensoleillée et joyeuse dans la plupart des villes, avec des températures agréables! Assurez-vous d'apporter vos lunettes de soleil et de profiter de cette belle journée! 🌞🌸"
-}
+             En résumé, demain sera une journée ensoleillée et joyeuse dans la plupart des villes, avec des températures agréables! Assurez-vous  d'apporter vos lunettes de soleil et de profiter de cette belle journée! 🌞🌸"
+  }
 ```
 
 
