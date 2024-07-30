@@ -7,4 +7,4 @@
 . .venv/bin/activate
 
 # Run main.py
-sudo fastapi run
+sudo .venv/bin/fastapi run
