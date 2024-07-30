@@ -22,7 +22,7 @@ async def resume_weather(date: str = get_tomorrow_date()):
         os.remove(file_path)
         
     if date != get_tomorrow_date():
-        return {"error": "Weather data for the requested date is not available"}
+        return {"text": "Error: Weather data for the requested date is not available"}
     resume = ask_toobo.resume_weather()
     ask_toobo.save_resume(resume, date)
 
