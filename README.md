@@ -2,6 +2,15 @@
 
 Welcome to the Toobo Weather API! This API provides friendly and cheerful weather summaries for kids, inspired by Toobo from [La météo de Gulli](https://fr.wikipedia.org/wiki/La_M%C3%A9t%C3%A9o_de_Gulli).
 
+<div align="center">
+  
+  ![License](https://img.shields.io/badge/license-MIT-green?style=flat)
+  [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Lenochxd/Toobo-API.svg?style=flat)](https://github.com/Lenochxd/Toobo-API/releases)
+  ![Stars](https://img.shields.io/github/stars/Lenochxd/Toobo-API?style=flat)
+  [![Discord](https://img.shields.io/discord/391919052563546112?style=flat&logo=Discord&logoColor=fff&label=Discord&color=5e6ae8&link=https%3A%2F%2Fdiscord.gg%2FtUPsYHAGfm)](https://discord.gg/tUPsYHAGfm)
+</div>
+
+
 ## Features
 
 - Summarizes weather data for multiple cities
