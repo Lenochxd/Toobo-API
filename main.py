@@ -9,6 +9,7 @@ app = FastAPI()
 
 
 @app.get("/API/toobo")
+@app.head("/API/toobo")
 async def resume_weather(date: str = ""):
     date = date.replace("/", "-") or get_tomorrow_date()
     
