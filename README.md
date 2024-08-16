@@ -1,14 +1,12 @@
 # Toobo Weather API
 
-Welcome to the Toobo Weather API! This API provides friendly and cheerful weather summaries for kids, inspired by Toobo from [La météo de Gulli](https://fr.wikipedia.org/wiki/La_M%C3%A9t%C3%A9o_de_Gulli).
+[![Uptime Robot status](https://img.shields.io/uptimerobot/status/m797521688-4e7da222e13d0dd905bb0601?style=flat)](https://stats.uptimerobot.com/Qpx5pFPmJX)
+[![License](https://img.shields.io/badge/license-MIT-green?style=flat)](https://github.com/Lenochxd/Toobo-API?tab=MIT-1-ov-file)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/Lenochxd/Toobo-API.svg?style=flat)](https://github.com/Lenochxd/Toobo-API/releases)
+[![Stars](https://img.shields.io/github/stars/Lenochxd/Toobo-API?style=flat)](https://github.com/Lenochxd/Toobo-API)
+[![Discord](https://img.shields.io/discord/391919052563546112?style=flat&logo=Discord&logoColor=fff&label=Discord&color=5e6ae8&link=https%3A%2F%2Fdiscord.gg%2FtUPsYHAGfm)](https://discord.gg/tUPsYHAGfm)
 
-<div align="center">
-  
-  ![License](https://img.shields.io/badge/license-MIT-green?style=flat)
-  [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Lenochxd/Toobo-API.svg?style=flat)](https://github.com/Lenochxd/Toobo-API/releases)
-  ![Stars](https://img.shields.io/github/stars/Lenochxd/Toobo-API?style=flat)
-  [![Discord](https://img.shields.io/discord/391919052563546112?style=flat&logo=Discord&logoColor=fff&label=Discord&color=5e6ae8&link=https%3A%2F%2Fdiscord.gg%2FtUPsYHAGfm)](https://discord.gg/tUPsYHAGfm)
-</div>
+Welcome to the Toobo Weather API! This API provides friendly and cheerful weather summaries for kids, inspired by Toobo from [La météo de Gulli](https://fr.wikipedia.org/wiki/La_M%C3%A9t%C3%A9o_de_Gulli).
 
 
 ## Features
@@ -17,9 +15,11 @@ Welcome to the Toobo Weather API! This API provides friendly and cheerful weathe
 - Provides kid-friendly weather descriptions
 - Suggests appropriate clothing based on the weather
 
+
 ## API Endpoint
 
 The API can be accessed at: http://toobo.bishokus.fr:8000
+
 
 ### Get Weather Resume
 
@@ -29,6 +29,7 @@ Method: GET
 
 Query Parameters:
 - `date` (optional): The date for which you want the weather resume. Format: YYYY-MM-DD. If not provided, it defaults to tomorrow's date.
+
 
 Example Request:
 ```
